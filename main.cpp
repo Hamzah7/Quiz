@@ -18,6 +18,7 @@ int main()
 		cin>>Option;
 		if(Option=='1')
 		{
+		    //it sets ttype to a variable for the quiz class and then the geography  function under ttype
             Quiz ttype;
             ttype.geography();
 		}
@@ -34,7 +35,7 @@ int main()
             ttype.mixed();
 		}
         	else if(Option=='5'){
-            cout<<"Thank you for using the system, we hope you enjoyed it"<<endl;
+            cout<<"Thank you for trying our quiz, we hope you enjoyed it"<<endl;
 		}
 	}while(Option!='5');
 	return 0;
