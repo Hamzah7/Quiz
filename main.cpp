@@ -27,11 +27,11 @@ int main()
 		}
        	else if(Option=='3'){
             Quiz ttype;
-            ttype.history();
+            ttype.science();
 		}
        	else if(Option=='4'){
             Quiz ttype;
-            ttype.history();
+            ttype.mixed();
 		}
         	else if(Option=='5'){
             cout<<"Thank you for using the system, we hope you enjoyed it"<<endl;
